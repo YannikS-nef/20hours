@@ -1,0 +1,10 @@
+{
+  "name": "student-hours-tracker",
+  "version": "1.0.0",
+  "description": "20h Studenten-Tracker mit 6-Wochen-Durchschnitt",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}

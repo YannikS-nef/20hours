@@ -1,0 +1,9 @@
+services:
+  student-hours-tracker:
+    build: .
+    container_name: student-hours-tracker
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
